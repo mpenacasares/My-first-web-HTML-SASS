@@ -10,7 +10,6 @@
   align-items: center;
   &__title {
     width: 290px;
-    height: 110px;
     font-family: $font-titles;
     color: $color-white;
     text-align: center;
@@ -20,7 +19,6 @@
   }
   &__text {
     width: 290px;
-    height: 21px;
     font-family: $font-text;
     color: $color-white;
     text-align: center;
@@ -40,7 +38,7 @@
     width: 45px;
     height: 45px;
     background-color: $color-white;
-    border-radius: 50%;
+    border-radius: 25.5px;
     margin-bottom: 53px;
     padding: 15px 13px;
   }
