@@ -6,7 +6,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   &__title {
     width: 290px;
@@ -19,7 +19,29 @@
     margin: 0px 15px;
   }
   &__text {
+    width: 290px;
+    height: 21px;
     font-family: $font-text;
     color: $color-white;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 15px 45px 15px;
+  }
+  &__menu {
+    width: 44px;
+    height: 44px;
+    background-color: #0271bc;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 15px 14px;
+  }
+  &__icon-down {
+    width: 45px;
+    height: 45px;
+    background-color: $color-white;
+    border-radius: 50%;
+    margin-bottom: 53px;
+    padding: 15px 13px;
   }
 }
