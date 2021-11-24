@@ -16,6 +16,11 @@
     font-size: 42px;
     text-transform: uppercase;
     margin: 0px 15px;
+    @media (min-width: 768px) {
+      width: 690px;
+      font-size: 80px;
+      margin: 0px 39px;
+    }
   }
   &__text {
     width: 290px;
@@ -24,6 +29,11 @@
     text-align: center;
     font-size: 16px;
     margin: 10px 15px 45px 15px;
+    @media (min-width: 768px) {
+      width: 360px;
+      font-size: 24px;
+      margin: 20px 204px 30px 204px;
+    }
   }
   &__menu {
     width: 44px;
@@ -41,5 +51,8 @@
     border-radius: 25.5px;
     margin-bottom: 53px;
     padding: 15px 13px;
+    @media (min-width: 768px) {
+      margin-bottom: 45px;
+    }
   }
 }
