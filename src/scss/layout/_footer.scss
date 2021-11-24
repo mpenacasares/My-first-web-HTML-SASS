@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  background-color: $color-darkblue-background;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__icon-arrow {
+    width: 45px;
+    height: 45px;
+    background-color: $color-white;
+    border-radius: 22.5px;
+    padding: 11px 12.4px 10px 12px;
+    position: absolute;
+    transform: translateY(-180%);
+  }
+  &__events {
+    &--links {
+      font-family: $font-text;
+      text-decoration: none;
+      color: $color-white;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+  }
+}
