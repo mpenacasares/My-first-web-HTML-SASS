@@ -12,9 +12,12 @@
     border-radius: 22.5px;
     padding: 11px 12.4px 10px 12px;
     position: absolute;
-    transform: translateY(-180%);
+    transform: translateY(-525%);
   }
   &__events {
+    margin: 60px 0 30px 0px;
+    text-align: center;
+    line-height: 2;
     &--links {
       font-family: $font-text;
       text-decoration: none;
@@ -22,5 +25,28 @@
       text-transform: uppercase;
       font-size: 16px;
     }
+  }
+  &__SSMM {
+    margin: 0px 0 30px 0px;
+    text-align: center;
+    line-height: 2;
+    &--links {
+      font-family: $font-text;
+      text-decoration: none;
+      color: $color-white;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+  }
+  &__copy {
+    font-family: $font-text;
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 45px;
+    line-height: 2.14;
   }
 }
