@@ -6,12 +6,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (min-width: 768px) {
+    padding: 30px 39px 60px 39px;
+  }
   &__pretitle {
     width: 290px;
     font-family: $font-text;
     color: $color-lightblue-text;
     text-transform: capitalize;
     font-size: 14px;
+    @media (min-width: 768px) {
+      width: 690px;
+    }
   }
   &__title {
     width: 290px;
@@ -20,6 +26,11 @@
     text-transform: capitalize;
     font-size: 24px;
     margin: 1px 0px 15px;
+    @media (min-width: 768px) {
+      width: 690px;
+      font-size: 26px;
+      margin: 1px 0px 30px;
+    }
   }
   &__text {
     width: 290px;
@@ -29,6 +40,10 @@
     font-size: 18px;
     line-height: 1.5;
     margin: 0px 0px 30px;
+    @media (min-width: 768px) {
+      width: 690px;
+      font-size: 20px;
+    }
   }
   &__button {
     background-color: $color-white;
@@ -38,6 +53,11 @@
     border: solid 2px $color-orange;
     border-radius: 25.5px;
     padding: 7px 2px 7px 22px;
+    @media (min-width: 768px) {
+      width: 91px;
+      margin-right: 600px;
+      padding: 7px 2px 7px 32px;
+    }
     &--text {
       font-family: $font-text;
       color: $color-orange;
