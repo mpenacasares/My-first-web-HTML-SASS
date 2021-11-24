@@ -5,6 +5,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
   &__icon-arrow {
     width: 45px;
     height: 45px;
@@ -12,12 +18,18 @@
     border-radius: 22.5px;
     padding: 11px 12.4px 10px 12px;
     position: absolute;
-    transform: translateY(-525%);
+    transform: translateY(-275%);
   }
   &__events {
     margin: 60px 0 30px 0px;
     text-align: center;
     line-height: 2;
+    @media (min-width: 768px) {
+      margin: 45px 15px 45px 15px;
+      text-align: left;
+      order: 1;
+      width: 210px;
+    }
     &--links {
       font-family: $font-text;
       text-decoration: none;
@@ -30,6 +42,12 @@
     margin: 0px 0 30px 0px;
     text-align: center;
     line-height: 2;
+    @media (min-width: 768px) {
+      margin: 45px 15px 105px 15px;
+      text-align: left;
+      order: 2;
+      width: 212px;
+    }
     &--links {
       font-family: $font-text;
       text-decoration: none;
@@ -48,5 +66,10 @@
     font-size: 14px;
     margin-bottom: 45px;
     line-height: 2.14;
+    @media (min-width: 768px) {
+      margin: 45px 15px 142px 39px;
+      width: 210px;
+      align-items: flex-start;
+    }
   }
 }
