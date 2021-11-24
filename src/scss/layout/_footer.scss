@@ -18,7 +18,10 @@
     border-radius: 22.5px;
     padding: 11px 12.4px 10px 12px;
     position: absolute;
-    transform: translateY(-275%);
+    transform: translateY(-525%);
+    @media (min-width: 768px) {
+      transform: translateY(-275%);
+    }
   }
   &__events {
     margin: 60px 0 30px 0px;
