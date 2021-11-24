@@ -9,6 +9,9 @@
   @media (min-width: 768px) {
     padding: 30px 39px 60px 39px;
   }
+  @media (min-width: 1200px) {
+    padding: 60px 275px 60px 275px;
+  }
   &__pretitle {
     width: 290px;
     font-family: $font-text;
@@ -17,6 +20,10 @@
     font-size: 14px;
     @media (min-width: 768px) {
       width: 690px;
+    }
+    @media (min-width: 1200px) {
+      width: 730px;
+      font-size: 16px;
     }
   }
   &__title {
@@ -29,6 +36,11 @@
     @media (min-width: 768px) {
       width: 690px;
       font-size: 26px;
+      margin: 1px 0px 30px;
+    }
+    @media (min-width: 1200px) {
+      width: 730px;
+      font-size: 32px;
       margin: 1px 0px 30px;
     }
   }
@@ -44,6 +56,10 @@
       width: 690px;
       font-size: 20px;
     }
+    @media (min-width: 1200px) {
+      width: 730px;
+      font-size: 20px;
+    }
   }
   &__button {
     background-color: $color-white;
@@ -57,6 +73,11 @@
       width: 91px;
       margin-right: 600px;
       padding: 7px 2px 7px 32px;
+    }
+    @media (min-width: 1200px) {
+      width: 160px;
+      margin-right: 580px;
+      padding: 7px 2px 7px 62px;
     }
     &--text {
       font-family: $font-text;
