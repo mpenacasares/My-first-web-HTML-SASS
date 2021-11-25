@@ -52,7 +52,7 @@
     position: fixed;
     top: 0px;
     left: 0px;
-    padding: 15px 14px;
+    padding: 15px 15px;
   }
   &__icon-down {
     width: 45px;
@@ -60,7 +60,7 @@
     background-color: $color-white;
     border-radius: 25.5px;
     margin-bottom: 53px;
-    padding: 15px 13px;
+    padding: 10px 6px 7px;
     @media (min-width: 768px) {
       margin-bottom: 45px;
     }
