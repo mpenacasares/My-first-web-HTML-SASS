@@ -68,22 +68,20 @@
     margin-right: 220px;
     border: solid 2px $color-orange;
     border-radius: 25.5px;
-    padding: 7px 2px 7px 22px;
+    font-family: $font-text;
+    font-size: 20px;
+    font-weight: bold;
     @media (min-width: 768px) {
       width: 91px;
       margin-right: 600px;
-      padding: 7px 2px 7px 32px;
     }
     @media (min-width: 1200px) {
       width: 160px;
       margin-right: 580px;
-      padding: 7px 2px 7px 62px;
     }
     &--text {
-      font-family: $font-text;
       color: $color-orange;
-      font-size: 20px;
-      font-weight: bold;
+      // Transition
       transition: color 0.5s linear;
       &:hover {
         color: $color-darkblue-menu;
