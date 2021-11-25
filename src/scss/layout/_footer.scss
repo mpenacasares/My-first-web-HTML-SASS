@@ -33,6 +33,9 @@
       order: 1;
       width: 210px;
     }
+    @media (min-width: 1200px) {
+      width: 161px;
+    }
     &--links {
       font-family: $font-text;
       text-decoration: none;
@@ -42,14 +45,18 @@
     }
   }
   &__SSMM {
-    margin: 0px 0 30px 0px;
+    margin: 0px 0px 30px 0px;
     text-align: center;
     line-height: 2;
     @media (min-width: 768px) {
-      margin: 45px 15px 105px 15px;
+      margin: 45px 39px 105px 15px;
       text-align: left;
       order: 2;
       width: 212px;
+    }
+    @media (min-width: 1200px) {
+      margin-right: 65px;
+      width: 161px;
     }
     &--links {
       font-family: $font-text;
@@ -73,6 +80,10 @@
       margin: 45px 15px 142px 39px;
       width: 210px;
       align-items: flex-start;
+    }
+    @media (min-width: 1200px) {
+      margin: 45px 15px 135px 65px;
+      width: 160px;
     }
   }
 }
