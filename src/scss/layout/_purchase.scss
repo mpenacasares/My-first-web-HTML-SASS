@@ -9,6 +9,9 @@
   @media (min-width: 768px) {
     padding: 30px 39px 60px 39px;
   }
+  @media (min-width: 1200px) {
+    padding: 60px 85px 60px 85px;
+  }
   &__title {
     width: 290px;
     font-family: $font-titles;
@@ -20,6 +23,10 @@
       width: 450px;
       font-size: 26px;
       text-align: center;
+    }
+    @media (min-width: 1200px) {
+      width: 730px;
+      font-size: 32px;
     }
   }
   &__articles {
@@ -65,6 +72,10 @@
         width: 210px;
         font-size: 24px;
       }
+      @media (min-width: 1200px) {
+        width: 350px;
+        font-size: 24px;
+      }
     }
     &--text {
       width: 180px;
@@ -77,6 +88,9 @@
         width: 212px;
         font-size: 20px;
       }
+      @media (min-width: 1200px) {
+        width: 353px;
+      }
     }
   }
   &__button {
@@ -88,6 +102,10 @@
     @media (min-width: 768px) {
       width: 210px;
       padding: 9px 2px 7px 45px;
+    }
+    @media (min-width: 1200px) {
+      width: 255px;
+      padding: 9px 2px 7px 70px;
     }
     &--text {
       font-family: $font-text;
