@@ -5,6 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  // Añado position relative al footer para que sea una position diferente a static y así al poner position absolute al icon-arrow, este tome las coordenadas del footer como (0,0), pues es el primer padre que tiene una position diferente a static
   @media (min-width: 768px) {
     flex-direction: row;
     justify-content: center;
@@ -17,9 +19,11 @@
     border-radius: 22.5px;
     padding: 11px 12.4px 10px 12px;
     position: absolute;
-    transform: translateY(-525%);
+    top: -22.5px;
+    // sobre el (0,0) le digo que suba una distancia igual a la mitad de la altura del elemento(22,5px)
+    // transform: translateY(-525%);
     @media (min-width: 768px) {
-      transform: translateY(-275%);
+      // transform: translateY(-275%);
     }
   }
   &__events {
