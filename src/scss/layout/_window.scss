@@ -17,13 +17,13 @@
     font-family: $font-text;
     color: $color-lightblue-text;
     text-transform: capitalize;
-    font-size: 14px;
+    font-size: 12px;
     @media (min-width: 768px) {
       width: 690px;
     }
     @media (min-width: 1200px) {
       width: 730px;
-      font-size: 16px;
+      font-size: 14px;
     }
   }
   &__title {
